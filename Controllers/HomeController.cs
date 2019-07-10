@@ -13,14 +13,6 @@ namespace FormSubmission.Controllers
         [HttpGet("")]
         public IActionResult Index()
         {
-        // public MyModel(string firstName, string lastName, int age, string email, string password) 
-        // {
-        //     this.FirstName = firstName;
-        //     this.LastName = lastName;
-        //     this.Age = age;
-        //     this.Email = email;
-        //     this.Password = password;
-        // }
             return View("Index");
         }
 
